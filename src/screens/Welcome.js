@@ -38,12 +38,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: COLORS.background,
     padding: SIZES.base * 2,
+    marginTop: SIZES.base * 3,
   },
   image: {
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: COLORS.ligthGray,
-    padding: SIZES.base,
+    padding: SIZES.base * 2,
     borderRadius: SIZES.radius,
   },
   imageContent: {
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 30,
     fontWeight: "bold",
-    marginVertical: SIZES.base * 4,
+    marginVertical: SIZES.base * 5,
   },
   content: {
     alignItems: "center",
